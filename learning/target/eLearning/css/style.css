@@ -1,0 +1,29 @@
+.container-fluid {
+	margin: 10px;
+	float: right;
+}
+
+button.btn {
+	border: 2px outset ButtonFace;
+	margin: 2px;
+}
+
+button[disabled] {
+	color: GrayText;
+	background: #ddd;
+	cursor: inherit;
+	background-color: #ddd;
+}
+
+#dateInput {
+	padding: 0;
+}
+
+#openDatePicker {
+	padding: 0;
+}
+
+#openDatePicker button {
+	margin: 0;
+	border: 1;
+}
